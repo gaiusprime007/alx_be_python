@@ -11,7 +11,7 @@ number2 = 5
 sum = number1 + number2
 
 #Subraction 
-differnce = number2 - number1
+difference = number2 - number1
 
 #Multiplication
 product = number1 * number2
