@@ -4,6 +4,6 @@
 hours = 2
 
 ##calculate hours in seconds
-seconds = hours * 60 * 60
+seconds = hours * 3600
 
 print(hours, "hours is ", seconds, "seconds")
