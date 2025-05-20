@@ -1,9 +1,9 @@
 ##Finance calculator
-monthly_income = int(input("Enter your monthly income: "))
-total_monthly_expenses = int(input("Enter your total monthly expenses: "))
+monthly_income = float(input("Enter your monthly income: "))
+total_monthly_expenses = float(input("Enter your total monthly expenses: "))
 
 #calculate monthly savings
-monthly_savings = int(monthly_income - total_monthly_expenses)
+monthly_savings = float(monthly_income - total_monthly_expenses)
 
 
 #Calculate future value of savings
