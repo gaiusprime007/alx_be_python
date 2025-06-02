@@ -15,7 +15,7 @@ match operation:
         result = num1 * num2
         print ('The result is '+ result)
 
-    case '+':
+    case '/':
         result = num1 / num2
         print ('The result is '+ result)
     case _:
