@@ -1,4 +1,4 @@
-def robust_division_calculator(numerator, denominator):
+def safe_divide(numerator, denominator):
     try:
        num = float(numerator)
        denom = float(denominator)
