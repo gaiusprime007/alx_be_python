@@ -11,7 +11,6 @@ class BankAccount:
             self.account_balance -= amount
             return True
         else:
-            print(f'Your balance is insufficient to withdraw {amount}')
             return False
         
     def display_balance(self):
