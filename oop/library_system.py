@@ -14,7 +14,7 @@ class EBook(Book):
         self.file_size = file_size
 
     def __str__(self):
-        return f"{super().__str__()} [E-Book, {self.file_size}MB]"
+        return f"{super().__str__()} E-Book, {self.file_size}MB"
 
 # PrintBook subclass
 class PrintBook(Book):
@@ -23,7 +23,7 @@ class PrintBook(Book):
         self.page_count = page_count
 
     def __str__(self):
-        return f"{super().__str__()} [Print, {self.page_count} pages]"
+        return f"{super().__str__()} Print, {self.page_count} pages"
 
 # Library composition class
 class Library:
